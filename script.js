@@ -46,6 +46,7 @@ $(document).ready(function(){
   });
 
   //Detail button
+  
   $(".p-center-wrapper button[data-toggle='collapse']").click (function () {
     $(this).text(function(i,old){
       var newString = "";
@@ -59,13 +60,15 @@ $(document).ready(function(){
       return newString;
     });
   })
-
+  
+  
   //Monitor side nav
+  
   $('body').scrollspy({
     target: '.bs-docs-sidebar',
     offset: 160
   });
-
+  
   $('#template-to-top').hide();
   $(".bs-docs-sidebar").hide();
 
@@ -74,6 +77,7 @@ $(document).ready(function(){
     var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
     return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
   }
+  
 
 
   var allLargeImgs = document.getElementsByClassName('full-screen-img');

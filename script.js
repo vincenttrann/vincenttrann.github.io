@@ -12,7 +12,7 @@ $(document).ready(function(){
     "I follow the NBA religiously.",
     "I've been a Los Angeles Laker fan since I was born.",
     "I currently play VALORANT and my peak rank was Diamond!",
-    "I'm affiliated with the professinal business frat: Alpha Kappa Psi.",
+    "I'm affiliated with the professional business frat: Alpha Kappa Psi.",
     "My favorite dessert is jasmine milk tea with boba.",
     "I once gained 25 pounds of muscle over a summer."
   ];
@@ -22,7 +22,7 @@ $(document).ready(function(){
   $('#preloader-content').html(funFacts[randomFactIndex]);
   //Load preloaders
   $( window ).on( "load", function() {
-    preloaderFadeOutTime = 800;
+    preloaderFadeOutTime = 500;
     var preloader = $('.spinner-wrapper');
     preloader.animate({
       up:'40px',

@@ -6,7 +6,6 @@
 }
 /* index html home page */
 
-
 .thumbnail-grid {
     margin: 4px 0 0 0;
     padding: 0;
@@ -287,7 +286,7 @@ i {
 }
 
 .about-h5 {
-    border-left: 6px solid lightgreen;
+    border-left: 6px solid #42b39a;
     padding-left: 28px;
 }
 
@@ -798,6 +797,10 @@ h6 {
 /* Medium Screens */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
+  .spinner-wrapper {
+    visibility: hidden;
+  }
+
   .card {
     background: #FAFAFA;
     box-shadow: 0 2px 44px 0 rgba(0,0,0,0.14);
@@ -864,6 +867,10 @@ h6 {
 
     .navbar .nav-item {
         padding: 0;
+    }
+
+    .spinner-wrapper {
+      visibility: hidden;
     }
 
     .main-container {

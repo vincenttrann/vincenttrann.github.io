@@ -855,6 +855,10 @@ h6 {
     margin: 15px;
   }
 
+  .spinner-wrapper {
+    display: none;
+  }
+
 
 }
 
@@ -952,6 +956,10 @@ h6 {
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 2px;
+    }
+
+    .spinner-wrapper {
+      display: none;
     }
 
 

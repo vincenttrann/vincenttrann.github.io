@@ -21,13 +21,12 @@ $(document).ready(function(){
   $('#preloader-title').text("Vincent's Random Fun Fact");
   $('#preloader-content').html(funFacts[randomFactIndex]);
   //Load preloaders
-  $( window ).on( "load", function() {
-    var preloader = $('.spinner-wrapper');
-    preloader.animate({
+  $( window ).on('load', function() {
+    $('.spinner-wrapper').animate({
       up:'40px',
       opacity:0
     }, 500);
-    preloader.css("display","none");
+    $('.spinner-wrapper').css("display","none");
     AOS.init();
   });
 

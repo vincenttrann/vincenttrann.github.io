@@ -797,10 +797,6 @@ h6 {
 /* Medium Screens */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-  .spinner-wrapper {
-    display: none;
-  }
-
   .card {
     background: #FAFAFA;
     box-shadow: 0 2px 44px 0 rgba(0,0,0,0.14);
@@ -867,10 +863,6 @@ h6 {
 
     .navbar .nav-item {
         padding: 0;
-    }
-
-    .spinner-wrapper {
-      display: none;
     }
 
     .main-container {
@@ -961,6 +953,7 @@ h6 {
       text-transform: uppercase;
       letter-spacing: 2px;
     }
+
 
 
 }

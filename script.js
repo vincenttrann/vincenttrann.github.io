@@ -2,27 +2,26 @@
 $(document).ready(function(){
   //Fun facts
   const funFacts = [
-    "I am 6'3 without shoes.",
+    "I'm' 6'3 without shoes.",
     "I love playing basketball and volleyball!",
-    "I am a huge video game nerd.",
+    "I love video games.",
     "I mostly listen to KPOP and EDM.",
-    "It is my goal to retire as early as possible.",
+    "It is my goal to travel the world.",
     "I love learning about new technologies.",
     "Product design is my career passion.",
     "I follow the NBA religiously.",
     "I've been a Los Angeles Laker fan since I was born.",
-    "I currently play VALORANT and my peak rank was Diamond!",
+    "I currently play VALORANT and my peak rank was Diamond.",
     "I'm affiliated with the professional business frat: Alpha Kappa Psi.",
     "My favorite dessert is jasmine milk tea with boba.",
     "I once gained 25 pounds of muscle over a summer."
   ];
   //Random fact generator
   var randomFactIndex = Math.floor(Math.random() * funFacts.length);
-  $('#preloader-title').text("Vincent's Fun Fact #"+(randomFactIndex+1));
+  $('#preloader-title').text("Vincent's Random Fun Fact");
   $('#preloader-content').html(funFacts[randomFactIndex]);
   //Load preloaders
   $( window ).on( "load", function() {
-    
     var preloader = $('.spinner-wrapper');
     preloader.animate({
       up:'40px',

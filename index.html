@@ -10,7 +10,8 @@ EMAIL: vincent6@uci.edu
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Vincent Tran">
-  <meta name="description" content="Vincent Tran's UX/Product Design Portfolio">
+  <meta name="description" content="Vincent Tran's UX & Product Design Portfolio">
+  <link rel="icon" href="images/Vincent-Tran.JPG">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -49,20 +50,25 @@ EMAIL: vincent6@uci.edu
   <div class='container-fluid'>
     <div class='row'>
       <nav class = 'navbar navbar-expand-md navbar-light bg-light fixed-top'>
-        <a class='navbar-brand pl-md-3' href='index.html'>V.T</a>
+        <a class='navbar-brand pl-md-3' href='/index.html'>V.T</a>
       <button class='navbar-toggler' type='button' data-toggle='collapse'
         data-target='#navbarContent' aria-controls='navbarContent' aria-expanded='false'>
         <span class='navbar-toggler-icon'></span>
       </button>  
       <div class='collapse navbar-collapse' id='navbarContent'>
         <ul class='navbar-nav ml-auto'>
-          <li class='nav-item active'>
-            <a class='nav-link' href='index.html'>Projects</a>
+          <li class='nav-item'>
+            <a class='nav-link active' href='/index.html'>Projects</a>
           </li>
         </ul>
         <ul class='navbar-nav'>
           <li class='nav-item'>
-            <a class='nav-link' href='about-me.html'>About Me</a>
+            <a class='nav-link' href='/Resume - Vincent Tran.pdf' target='_blank'>Resume</a>
+          </li>
+        </ul>
+        <ul class='navbar-nav'>
+          <li class='nav-item'>
+            <a class='nav-link' href='/about-me.html'>About Me</a>
           </li>
         </ul>
       </div>  
@@ -109,8 +115,10 @@ EMAIL: vincent6@uci.edu
   </header>
 
 <!-- Showcase one of my projects with a bootstrap card, use soundcloud thumbnail, will add more cards when I have more projects to showcase-->
-  <div class='container-fluid' id='my-work'>
+
+  <div class='container-fluid justify-content-center' id='my-work'>
     <ul class='thumbnail-grid'>
+      <!--
       <li>
         <div class="card" style="background-size: contain; background-repeat: no-repeat;">
           <img class="card-img-top" src="images/nintendo-thumbnail.png" alt="redesigned soundcloud interface">
@@ -120,6 +128,59 @@ EMAIL: vincent6@uci.edu
             <p class="card-text">Refining intuitiveness, developing social infrastructure, and making friends more meaningful.</p>
             <a title='soundcloud thumbnail' href='/nintendo-redesign.html' class='stretched-link'></a>
           </div>
+        </div>
+      </li>
+      -->
+      <li data-aos="fade-up" data-aos-duration="600">
+        <div class="card" style="background-image: url(images/nintendo-thumbnail.png); background-size: contain; background-repeat: no-repeat;">
+          <div class="card-body">
+            <h4 class="card-title">
+              Nintendo Online App Redesign
+            </h4>
+            <h5 class="card-subtitle">
+              Product Design, UX/UI Design & Research
+            </h5>
+            <p class="card-content">
+              Refining intuitiveness, developing social infrastructure, and making friends more meaningful.
+            </p>
+          </div>
+          <a title='nintendo thumbnail' href='/nintendo-redesign.html' class='stretched-link'></a>
+        </div>
+      </li>
+      <li data-aos="fade-up" data-aos-duration="600">
+        <div class="card" style="background-image: url(images/Dribbble\ shot\ HD\ -\ 1.png); background-size: contain; background-repeat: no-repeat;">
+          <div class="card-body">
+            <h4 class="card-title">
+              Soundcloud Redesign
+            </h4>
+            <h5 class="card-subtitle">
+              UX/UI Design & Research
+            </h5>
+            <p class="card-content">
+              Making music streaming more intuitive and enjoyable (Links to Medium post).
+            </p>
+          </div>
+          <a title='soundcloud thumbnail' href='https://medium.com/uci-inf132-ux-project-spring-2020/redesigning-soundclouds-interface-9908c26e798b' target='_blank' class='stretched-link'></a>
+        </div>
+      </li>
+
+      <li data-aos="fade-up" data-aos-duration="600">
+        <div class="card" style="background-image: url(images/Studoent\ shot.png); background-size: contain; background-repeat: no-repeat;">
+          <div class="card-body">
+            <h4 class="card-title">
+              Studoent
+            </h4>
+            <h5 class="card-subtitle">
+              Product Design, Design-a-thon
+            </h5>
+            <p class="card-content">
+              Improving college student's productivity and mindfulness.
+              *COMING SOON*
+            </p>
+          </div>
+          <!--
+          <a title='studoent thumbnail' href='/nintendo-redesign.html' class='stretched-link'></a>
+          -->
         </div>
       </li>
     </ul>

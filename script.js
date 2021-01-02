@@ -22,12 +22,12 @@ $(document).ready(function(){
   $('#preloader-content').html(funFacts[randomFactIndex]);
   //Load preloaders
   $( window ).on( "load", function() {
-    preloaderFadeOutTime = 500;
+    
     var preloader = $('.spinner-wrapper');
     preloader.animate({
       up:'40px',
       opacity:0
-    },preloaderFadeOutTime);
+    }, 500);
     preloader.css("visibility","hidden");
     AOS.init();
   });

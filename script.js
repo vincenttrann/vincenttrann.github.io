@@ -27,7 +27,7 @@ $(document).ready(function(){
       up:'40px',
       opacity:0
     }, 500);
-    preloader.css("visibility","hidden");
+    preloader.css("display","none");
     AOS.init();
   });
 

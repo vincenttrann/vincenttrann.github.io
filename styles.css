@@ -798,7 +798,7 @@ h6 {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
   .spinner-wrapper {
-    visibility: hidden;
+    display: none;
   }
 
   .card {
@@ -870,7 +870,7 @@ h6 {
     }
 
     .spinner-wrapper {
-      visibility: hidden;
+      display: none;
     }
 
     .main-container {

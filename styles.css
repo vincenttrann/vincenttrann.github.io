@@ -215,6 +215,11 @@ i {
     background-size: cover;
 }
 
+.bg-studoent {
+  background: url('/images/studoent-intro.png') no-repeat center center;
+  background-size: cover;
+}
+
 .banner {
     height: 100vh;
     background: transparent;
@@ -285,6 +290,7 @@ i {
   margin-bottom: 16px;
 }
 
+
 .about-h5 {
     border-left: 6px solid #42b39a;
     padding-left: 28px;
@@ -336,6 +342,10 @@ i {
 .highlight-nintendo.shown {
   background-image: linear-gradient(to right, transparent 50%, rgb(253, 222, 222) 50%);
 }
+
+.highlight-studoent.shown {
+  background-image: linear-gradient(to right, transparent 50%, rgb(213, 243, 237) 50%);
+}
 /* end highlight */
 
 /*Collapse button*/
@@ -376,6 +386,13 @@ i {
   box-shadow: 2px 4px 24px rgba(0,0,0,0.10);
 }
 
+.video-features-studoent {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 2px 4px 24px rgba(0,0,0,0.10);
+  margin-top:  20px;
+}
+
 .video-feature-title {
   font-family: 'Open Sans' !important;
   font-size: 40px !important;
@@ -385,8 +402,23 @@ i {
   color: rgb(245, 78, 78);
 }
 
+.video-feature-title-studoent {
+  font-family: 'Open Sans' !important;
+  font-size: 35px !important;
+  padding-bottom: 12px;
+  margin-top: 30px;
+  line-height: 40px !important;
+  color: rgb(2, 102, 112);
+}
+
 .video-feature-content {
   margin-top: 20px;
+  font-size: 18px !important;
+  line-height: 30px !important;
+  color: black;
+}
+
+.video-feature-content-studoent {
   font-size: 18px !important;
   line-height: 30px !important;
   color: black;

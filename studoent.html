@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta http-equiv='cache-control' content='no-cache'> 
+  <meta http-equiv='expires' content='0'> 
+  <meta http-equiv='pragma' content='no-cache'> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Vincent Tran">
+  <meta name="description" content="Vincent Tran's UX & Product Design Portfolio">
+  <link rel="icon" href="images/Vincent-Tran.JPG">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='styles.css'/>
+  <link href='https://fonts.googleapis.com/css?family=Roboto Slab|Open Sans|Fakt' rel='stylesheet'/>
+  <script src="https://use.fontawesome.com/a891bb0a11.js"></script>
+  <script src="/script.js" charset="utf-8"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Studoent</title>
+
+</head>
+
+<body>
+  <!--Preloader-->
+  <div class="spinner-wrapper">
+    <div class="p-center-wrapper">
+      <div style='color: #42b39a' class="la-line-scale la-dark">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <h4 id="preloader-title"></h4>
+          <h5 id="preloader-content"></h5>
+      </div>
+    </div>
+  </div>
+  <!--Top nav bar-->
+    <div class='container-fluid'>
+      <div class='row'>
+        <nav class = 'navbar navbar-expand-md navbar-light bg-light fixed-top'>
+          <a class='navbar-brand pl-md-3' href='/index.html'>V T</a>
+        <button class='navbar-toggler' type='button' data-toggle='collapse'
+          data-target='#navbarContent' aria-controls='navbarContent' aria-expanded='false'>
+          <span class='navbar-toggler-icon'></span>
+        </button>  
+        <div class='collapse navbar-collapse' id='navbarContent'>
+          <ul class='navbar-nav ml-auto'>
+            <li class='nav-item'>
+              <a class='nav-link active' href='/index.html'>Projects</a>
+            </li>
+          </ul>
+          <ul class='navbar-nav'>
+            <li class='nav-item'>
+              <a class='nav-link' href='/Resume - Vincent Tran.pdf' target='_blank'>Resume</a>
+            </li>
+          </ul>
+          <ul class='navbar-nav'>
+            <li class='nav-item'>
+              <a class='nav-link' href='/about-me.html'>About Me</a>
+            </li>
+          </ul>
+        </div>  
+        </nav>
+      </div>
+    </div>
+  <!--Side nav bar-->
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 50px">
+          <nav class="col-lg-3 col-md-3 d-none d-md-block">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <div class="bs-docs-sidebar">
+              <ul class="nav flex-column" id="sidebar">
+                <li class='nav-item'>
+                  <a href="#overview">Overview</a>
+                  <ul class="nav flex-column">
+                    <li><a href="#challenge">Challenge</a></li>
+                    <li><a href="#solution">Solution</a></li>
+                  </ul>
+                </li>
+                <li class='nav-item'>
+                  <a href="#research">Research</a>
+                  <ul class="nav flex-column">
+                    <li><a href="#define">Defining the Problem</a></li>
+                    <li><a href="#questions-findings">Questions Findings</a></li>
+                    <li><a href="#comparative-analysis">Comparative Analysis</a></li>
+                    <li><a href="#personas">Personas</a></li>
+                    <li><a href="#research-findings">Research Findings</a></li>
+                  </ul>
+                </li>
+                <li class='nav-item'>
+                  <a href="#design">Design</a>
+                  <ul class="nav flex-column">
+                    <li><a href="#design-goals">Design Goals</a></li>
+                    <li><a href="#user-flow">User Flow</a></li>
+                    <li><a href="#mid-fi">Mid-fi Wireframes</a></li>
+                    <li><a href="#hi-fi">High-fi Prototype</a></li>
+                  </ul>
+                </li>
+                <li class='nav-item'>
+                  <a href="#learnings">Learnings</a>
+                  <ul class="nav flex-column">
+                    <li><a href="#research-methods">Research Methods</a></li>
+                    <li><a href="#self-critiques">Self Critiques</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!--Project picture/banner-->
+          <div class="bg bg-studoent " data-aos="fade-up" data-aos-duration="700"></div>
+          <div class="banner" data-aos="fade-up" data-aos-duration="700"></div>
+          <!--Overview section-->
+          <div class='col-lg-6 col-md-6 col-sm-12 col-12 first-section'>
+            <section id='overview' class='group' data-aos="fade-up" data-aos-duration="600">
+              <h3>Overview</h3>
+              <hr>
+              <div id='challenge' class='subgroup'>
+                <h4>Challenge</h4>
+                <p class="small-margin-bottom">"Design your own desktop app that <span class='highlight highlight-studoent'>integrates seamlessly with an individuals’ daily workflow</span> and advocates for <span class='highlight highlight-studoent'>mindfulness and productivity."</span></p><br>
+                <img class="img-responsive full-img" src="/images/undraw_task_list_6x9d.svg" alt="the challenge"> <br><br>
+              </div>
+
+              <div class="row">
+                <div class="subgroup-left-side col-lg-8 col-md-8 col-sm-12">
+                    <h4 id="solution">Solution</h4>
+                    <p>I designed a product named <span class='highlight highlight-studoent'>"Studoent"</span>, a student based task management application that integrates ideals
+                        that bolster productivity and mindfulness. Studoent allows for students to <span class='highlight highlight-studoent'>organize both their
+                        academic and personal tasks, while having an AI "mentor" that facilitates progress and accomplishment.</span>
+                        When a student wants to unwind from their busy day, there is a seamless option to go straight into 
+                        the "Relax" tab, where they will be able to <span class='highlight highlight-studoent'>participate in mindfulness exercises.</span>
+
+                    </p>
+                </div>
+  
+                <div class="subgroup-right-side col-lg-4 col-md-4 col-sm-12">
+                  <h4>Timeline</h4>
+                  <p>36 Hours from Nov 20 - Nov 22, 2020</p>
+                  <h4>Project Info</h4>
+                  <p>2020 UCI Design-a-thon Solo Participant</p>
+                  <h4>Tools</h4>
+                  <p>Adobe XD, Notion, Miro</p>
+  
+                  <br>
+                  <br>
+                </div>
+              </div>
+            </section>
+            <!--Research section-->
+            <section id="research" class="group" data-aos="fade-up" data-aos-duration="600">
+                <h3>Research</h3>
+                <hr>
+                <div id="define" class="subgroup">
+                  <h4>Defining the Problem</h4>
+                    <p> After reading and understanding the challenge brief, I first sought out to define and empathize the problem to give myself direction with the product design. <br> <br>
+                        The user base I decided to target were <span class='highlight highlight-studoent'>college and university students</span> because I was a student myself. Given the limited time frame, this would allow me to validate my 
+                        research based on not only my personal experiences but also my peers' anecdotes about higher-education student life. <br><br>
+                        To provide myself contextual evidence about the problem of productivity and mindfulness within college students, I came up with 3 research questions: <br><br>
+                        1) What are the <span class='highlight highlight-studoent'>major factors that affects a student's productivity?</span> <br>
+                        2) What factors <span class='highlight highlight-studoent'>facilitate motivation</span> within students? <br>
+                        3) How can we <span class='highlight highlight-studoent'>encourage mindfulness</span> within students?
+                    </p>
+                </div>
+
+                <div id="questions-findings" class="subgroup">
+                  <h4>Questions Findings</h4>
+                  <p>After spending a couple of hours looking through online articles, I found the following answers to my proposed research questions:</p>
+                  <p>
+                      <h5>1) What are the major factors that affects a college student's productivity?</h5>
+                      <p>According to <a href='https://kappanonline.org/rosen-distracted-student-mind-attention/' target='_blank'>The Distracted Student Mind</a> by Larry D. Rosen, <span class='highlight highlight-studoent'>technological distractions are the single most detrimental factor in a student's productivity.</span> 
+                        There is evidence that states that: </p>
+                          - The typical student is <span class='highlight highlight-studoent'>distracted</span> by technologies like phones at least <span class='highlight highlight-studoent'>5 out of every 15 minutes they set aside to study</span><br> 
+                          - Due to the mass amount of media consumption today, <span class='highlight highlight-studoent'>student's sub-consicously check their phones whenever a notification alerts them</span> </p> 
+                        <h5>2) What factors facilitate motivation within college students?</h5>
+                        <p>According to <a href='https://www.villanovau.com/resources/student-learning/tips-for-staying-motivated-in-college/' target='_blank'>Villanova University</a> and <a href='https://fremont.edu/how-to-stay-motivated-in-college/' target='_blank'>Fremont College</a>, 
+                            there are a variety of factors that play into motivating students:</p>
+                        <p>
+                            - Maintaining a positive attitude <br>
+                            - Acknowledging past accomplishments <br>
+                            - Setting flexible schedules and routines <br>
+                            - Prioritizing tasks <br>
+                            - Celebrating incremental successfully <br>
+                            - Taking breaks to rejuvenate the mind
+                        </p>
+                        <h5>3) How can we encourage mindfulness within college students?</h5>
+                        <p>According to <a href="https://www.affordablecollegesonline.org/college-resource-center/mindfulness-meditation/#:~:text=While%20meditation%20can%20help%20to,to%20everything%20they're%20doing" target='_blank'>A Student Guide to Going Zen</a>, 
+                            mindfulness is cultivated by:</p>
+                        <p>
+                            - Meditation <br>
+                            - Breathing exercises <br>
+                            - Gratitude journaling <br>
+                            - Daily self reflections
+                        </p>
+                  </p>
+                </div>
+                
+                <div id="comparative-analysis" class='subgroup'>
+                  <h4>Comparative Analysis</h4>
+                  <p>After answering the research questions, I analyzed competitors of Studoent, which were: <span class='highlight highlight-studoent'>Todoist</span>, <span class='highlight highlight-studoent'>Trello</span>, 
+                    <span class='highlight highlight-studoent'>Notion</span>, and <span class='highlight highlight-studoent'>Calm</span>. 
+                    My goal for this comparative analysis was to <span class='highlight highlight-studoent'>identify features</span> within these apps that facilitate productivity
+                    and mindfulness based on my online research.
+                  </p><br>
+                  <img class="img-responsive" src="/images/comparative-analysis-studoent.PNG" alt="user test template"> <br><br><br>
+                  <p>Based on the comparative analysis findings, the following were <span class='highlight highlight-studoent'>crucial features to implement into Studoent based on competitors features and flaws:</span></p>
+                  <p>
+                    - Task management <br>
+                    - Milestone tracking <br>
+                    - Calendar management <br>
+                    - Prioritizations <br>
+                    - Due date tracking <br>
+                    - Curated dashboard <br>
+                    - Simple user interface <br>
+                    - Customization <br>
+                    - Task categories
+                  </p>
+                </div>
+
+                <div id='personas' class='subgroup'>
+                  <h4>Personas</h4>
+                  <p class='small-margin-bottom'>Taking into account the past research data, I created two personas to simplify and <span class='highlight highlight-studoent'>remind myself of who I’ll be designing for.</span></p>
+                  <br>
+                  <img class="img-responsive" src="/images/Personas-Studoent.png" alt="personas"> <br><br>
+                </div>
+
+                <div id="research-findings" class="subgroup">
+                  <h4>Research Findings</h4>
+                    <p>From both the research and personas, I came up with the following core features 
+                      and sub-features to implement in my designs:
+                    </p>
+                    <h5><span class='highlight highlight-studoent'>1) Organizational structure</span></h5>
+                    <p>
+                      - Dashboard <br>
+                      - Task management (task board view with filters) <br>
+                      - Milestone & Due date tracking <br>
+                      - Calendar management <br>
+                      - Customization <br>
+                    </p>
+                    <h5><span class='highlight highlight-studoent'>2) Motivational features</span></h5>
+                    <p>
+                      - Positive reinforcement <br>
+                      - Acknowledging past accomplishments <br>
+                      - Prioritizing tasks and goals <br>
+                      - Celebrating incremental success <br>
+                    </p>
+                    <h5><span class='highlight highlight-studoent'>3) Mindfulness features</span></h5>
+                    <p>
+                      - Meditation exercises <br>
+                      - Breathing exercises <br>
+                      - Gratitude journal <br>
+                      - Self reflections <br>
+                    </p>
+                    <h5><span class='highlight highlight-studoent'>4) Preventing distractions</span></h5>
+                    <p>
+                      - Advise user to remove distractions <br>
+                      - Motivate users to keep working <br>
+                    </p>
+                </div>
+                
+            </section>
+            <!--Design section-->
+            <section id="design" class="group" data-aos="fade-up" data-aos-duration="600">
+              <h3>Design</h3>
+              <hr>
+              <div id="design-goals" class="subgroup">
+                <h4>Design Goals</h4>
+                <p class='small-margin-bottom'>The following are my design goals for approaching the design of Studoent based off user research and user needs: <br><br>
+                1) Side navigation that facilitates <span class='highlight highlight-studoent'>easy access</span> to all essential feature categories:
+                <span class='highlight highlight-studoent'>Dashboard</span>, <span class='highlight highlight-studoent'>Tasks</span>, <span class='highlight highlight-studoent'>Classes</span>, 
+                  <span class='highlight highlight-studoent'>Personal</span>, <span class='highlight highlight-studoent'>Calendar</span>, <span class='highlight highlight-studoent'>Settings</span>, and 
+                    <span class='highlight highlight-studoent'>Relax</span>  <br>
+                2) <span class='highlight highlight-studoent'>Motivational sub-features that embodies optimism</span> within the product <br>
+                3) <span class='highlight highlight-studoent'>Intuitive access to the mindfulness features</span> of the app <br>
+                4) Remind users to <span class='highlight highlight-studoent'>remove distractions when starting a task</span>
+                </p>
+              </div>
+
+              <div id="user-flow" class="subgroup">
+                <h4>User Flow</h4>
+                <p>
+                  Before beginning the interface design, I decided to map out a simple user flow
+                   to demonstrate the features available to the user as they navigate through
+                   Studoent.
+                </p>
+                <img class="img-responsive" src="/images/Studoent User Flow.jpg" alt="user flow"><br><br>
+              </div>
+
+              <div id='mid-fi' class='subgroup'>
+                <h4>Mid Fidelity Wireframes</h4>
+                <p>
+                  Given the limited timeframe for this project, I chose to <span class='highlight highlight-studoent'>jump right into mid fidelity wireframes in order to increase the efficiency of my workflow.</span>
+                  Taking into account the user flow, I developed the following screens:
+                </p>
+                <br>
+                <img class="img-responsive" src="/images/Studoent mid-fi screens@2x.png" alt="mid fidelity wireframes"><br><br>
+              </div>
+
+              <div id='hi-fi' class='subgroup'>
+                <h4>High Fidelity Prototype</h4>
+                  <video autoplay muted loop class='video-features-studoent'>
+                    <source src='/images/Studoent high fi.mp4'>
+                  </video>
+                  <h5 class='video-feature-title-studoent'>Studoent - A college student's best friend</h5>
+                  <p class='video-feature-content-studoent'>
+                    Based on the user research and design methods conducted, the final prototype presents college students a way to organize a productive lifestyle, 
+                    options to practice mindfulness, and an AI mentor that motivates them.
+                    Studoent gives students a means to be productive and mindful, while also fitting seemlessly into their busy lives.
+                  </p>
+                <p class='p-center-wrapper'>
+                  <a href='https://xd.adobe.com/view/7c53dcff-1c0d-46fb-b5f7-32ac94721c0e-2900/?fullscreen' target=”_blank”><button class="btn detail-button" >View Interactive Prototype</button></a>
+                </p>
+              </div>
+            </section>
+            <!--Learnings section-->
+            <section id="learnings" class="group" data-aos="fade-up" data-aos-duration="600">
+              <h3>Learnings</h3>
+              <hr>
+              <div id="research-methods" class="subgroup">
+                <h4>Alternative Research Methods</h4>
+                <p class='small-margin-bottom'>
+                  Given the time constraint of this competition, I found that I had to be <span class='highlight highlight-studoent'>flexible in how I conducted my user research.</span> Though it is standard to conduct user interviews and surveys 
+                  to collect important data on users, I decided to not use these methods due to the <span class='highlight highlight-studoent'>small sample size</span> of data it would give me. Instead, I opted for more <span class='highlight highlight-studoent'>qualitative</span> ways of 
+                  learning about the users, in tackling the problem itself. By <span class='highlight highlight-studoent'>defining research questions</span> that I would be able to learn about online, this gave me the opportunity to <span class='highlight highlight-studoent'>empathize</span> 
+                  with college students, and utilize my <span class='highlight highlight-studoent'>personal experiences to validate these answers.</span> 
+                  <br><br>
+                  Thanks to these research questions, I was able to progress in user research by utilizing the internet once more to look at competitors and how they approach the problem of productivity
+                  and mindfulness. By creating personas, I found the opportunity to <span class='highlight highlight-studoent'>remedy user needs within the features that Studoent would support.</span> Even though time was limited, I was able to conduct
+                  sufficient research to support and guide my design decisions.
+                </p>
+              </div>
+              <div id="self-critiques" class="subgroup">
+                <h4>Self Critiques</h4>
+                <p class='small-margin-bottom'>
+                  Looking back at Studoent a couple of weeks later, <span class='highlight highlight-studoent'>I will find a major critique in my design in terms of both its user experience and user interface as an exercise to learn and grow.</span>
+                  <br><br>
+                  As for the <span class='highlight highlight-studoent'>UX</span>, a major problem I see is the fact that there is <span class='highlight highlight-studoent'>no incentive for the user to actually engage with the "Relax" function.</span> Even though this option is
+                  easily accessible, the <span class='highlight highlight-studoent'>user flow</span> is mainly focused on productivity with <span class='highlight highlight-studoent'>mindfulness just slotted in there for convenience.</span> A <span class='highlight highlight-studoent'>solution</span> to this problem would be to 
+                  <span class='highlight highlight-studoent'>gamify</span> the entire experience for the student. By incorporating a system of earning rewards for utilizing all aspects of the app, the user will have a reason to 
+                  visit the Relax feature. An example of this solution would be to give <span class='highlight highlight-studoent'>users points for each task and mindfulness exercise accomplished</span>, and these points would be used to 
+                  grant users either more customization options (like themes for the Studoent Mentor) or monetary rewards.
+                  <br><br>
+                  As for the <span class='highlight highlight-studoent'>UI</span>, a major problem I found is that my sense of <span class='highlight highlight-studoent'>visual hierarchy and sizing was inconsistent</span> and causes the app to look more unappealing than it should be. For one,
+                  some screens, like the Dashboard screen, <span class='highlight highlight-studoent'>looks crowded due to my lack of whitespace usage.</span> But the Task page had sufficient whitespace, which validates this 
+                  inconsistency. As a remedy for this, I would want to <span class='highlight highlight-studoent'>rethink the sizing</span> of my content "cards", in order to <span class='highlight highlight-studoent'>let the design breathe.</span> Second, some <span class='highlight highlight-studoent'>buttons and text were
+                  way too big and took up too much screen real estate.</span> A great example of this would be on the Settings screen, in which the "Enable Desktop Notifications" button was
+                  unusually huge compared to all other aspects of the screen. Again, the user interface would look more aesthetic if I incorporated <span class='highlight highlight-studoent'>more whitespace</span> and became <span class='highlight highlight-studoent'>more
+                  consistent with sizing.</span>
+                  <br><br>
+                  Thank you for reading! For reference, I was a top 5 finalist but ultimately didn't win the design-a-thon. These results have given me more motivation to improve upon my design skills!
+                  I would love constructive feedback, feel free to reach out to me on any of my contact links!
+                </p>
+              </div>
+            </section>
+
+
+
+          </div>
+        </div>
+      </div>
+      <!--Button to navigate to top-->
+      <a href="" id="template-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+      <footer>
+        <!--Bottom links and rights-->
+        <div class="container-fluid">
+          <div class="row footer-row">
+            <div class="footer col-sm-12 col-md-12 col-lg-12">
+              <p class="footer-text">Designed and Handcoded with ♥</p>
+            </div>
+            <div class="footer-icons col-sm-12 col-md-12 col-lg-12">
+              <p>
+                <a href="https://www.linkedin.com/in/vincenttrann/" target="_blank"><em class="fa fa-linkedin fa-lg" aria-hidden="true"></em></a>
+                <a href="https://dribbble.com/vincent_tran" target="_blank"><em class="fa fa-dribbble fa-lg" aria-hidden="true"></em></a>
+                <a href="https://medium.com/@vincenttran4644" target="_blank"><em class="fa fa-medium fa-lg" aria-hidden="true"></em></a>
+                <a href="mailto:vincent6@uci.edu" target="_blank"><em class="fa fa-envelope-o fa-lg" aria-hidden="true"></em></a>
+              </p>
+              <p class="footer-text-small">Vincent Tran © 2020-2021 All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+
+</html>

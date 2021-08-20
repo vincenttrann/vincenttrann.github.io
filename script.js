@@ -50,9 +50,17 @@ $(document).ready(function(){
       var newString = "";
       if (old.startsWith("See")) {
         newString = old.replace("See","Hide");
-      } else if (old.startsWith("Hide")){
+      } 
+      else if (old.startsWith("Hide")){
         newString = old.replace ("Hide","See");
-      } else {
+      } 
+      else if (old.endsWith("More")){
+        newString = old.replace ("More","Less");
+      } 
+      else if (old.endsWith("Less")){
+        newString = old.replace ("Less","More");
+      } 
+      else {
         newString = old;
       }
       return newString;

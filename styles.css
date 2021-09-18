@@ -24,6 +24,10 @@
   display: table;
 }
 
+.rounded-corners {
+  border-radius: 25px;
+}
+
 body {
     min-height:100vh;
     background-color: #f9f9f9;
@@ -282,6 +286,14 @@ i {
     font-size: 100%;
 }
 
+.btn-pink {
+  border-color: #E6447D;
+  color: #E6447D;
+}
+
+
+
+
 .subgroup {
     padding-bottom: 32px;
 }
@@ -292,8 +304,10 @@ i {
 
 
 .about-h5 {
-    border-left: 6px solid #42b39a;
-    padding-left: 28px;
+    /*border-left: 6px solid #42b39a;
+    padding-left: 28px;*/
+    font-weight: 600;
+    color: rgba(39, 36, 36, 0.815);
 }
 
 .small-margin-bottom {
@@ -770,9 +784,9 @@ h6 {
   .card {
     background: #FAFAFA;
     box-shadow: 0 2px 44px 0 rgba(0,0,0,0.14);
-    border-radius: 16px;
-    width: 450px;
-    height: 480px;
+    border-radius: 8px;
+    width: 600px;
+    height: 550px;
     margin: auto;
     position: relative;
     -webkit-transition: all 250ms cubic-bezier(.02, .01, .47, 1);
@@ -793,7 +807,7 @@ h6 {
     text-align: left;
     position: absolute;
     top:67%;
-    margin-left: 36px;
+    margin-left: 0px;
     margin-right: 36px;
   }
   
@@ -802,14 +816,17 @@ h6 {
     font-size: 22px;
     font-weight: 600;
     color: rgb(80, 80, 80);
-    margin-top: 5px;
+    margin-top: 80px;
   }
   
   .card-subtitle {
     font-family: "Open Sans" !important;
     font-size: 14px;
     color: grey;
-    margin-bottom: 8px;
+    margin-left: 450px;
+    margin-top: -150px;
+    white-space: nowrap;
+    /*margin-top: -150px;*/
   }
   
   .card-content {
@@ -821,8 +838,8 @@ h6 {
   }
 
   .thumbnail-grid li {
-    width: 450px;
-    height: 500px;
+    width: 650px;
+    height: 600px;
     display: inline-block;
     margin: 15px;
   }
@@ -833,7 +850,7 @@ h6 {
   .card {
     background: #FAFAFA;
     box-shadow: 0 2px 44px 0 rgba(0,0,0,0.14);
-    border-radius: 16px;
+    border-radius: 8px;
     width: 320px;
     height: 360px;
     margin: auto;
@@ -870,7 +887,9 @@ h6 {
     font-family: "Open Sans" !important;
     font-size: 12px;
     color: grey;
+    margin-top: -10px;
     margin-bottom: 8px;
+    white-space: nowrap;
   }
   
   .card-content {
@@ -879,6 +898,7 @@ h6 {
     font-size: 13px;
     color: rgb(70, 70, 70);
     line-height: 20px;
+    margin-top: -8px;;
   }
 
   .thumbnail-grid li {
@@ -915,7 +935,7 @@ h6 {
     .card {
       background: #FAFAFA;
       box-shadow: 0 2px 44px 0 rgba(0,0,0,0.14);
-      border-radius: 16px;
+      border-radius: 8px;
       width: 320px;
       height: 360px;
       margin: auto;
@@ -952,6 +972,8 @@ h6 {
       font-family: "Open Sans" !important;
       font-size: 12px;
       color: grey;
+      white-space: nowrap;
+      margin-top: -12px;
       margin-bottom: 8px;
     }
     
@@ -961,6 +983,7 @@ h6 {
       font-size: 13px;
       color: rgb(70, 70, 70);
       line-height: 20px;
+      margin-top: -8px;;
     }
   
     .thumbnail-grid li {
